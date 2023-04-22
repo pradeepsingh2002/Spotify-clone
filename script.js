@@ -101,7 +101,7 @@ Array.from(document.getElementsByClassName('songItemPlay')).forEach((element)=>{
     gif.style.opacity=1;
 }
 else{
-    audioElement.pause();I
+    audioElement.pause();
     makeAllPlays();
     e.target.classList.remove('fa-pause-circle');
        e.target.classList.add('fa-play-circle');
